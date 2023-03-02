@@ -1,0 +1,73 @@
+/* 
+* {
+    outline: 1px dotted lightblue;
+}
+*/
+:root {
+    /* cores padrao */
+    --primary-color: #bcbaeb;
+    --secondary-color: #00d4ff;
+    --tertiary-color: #002333;
+    --quaternary-color: #b8fadb;
+    --quinary-color: #855d5d;
+    --light-color: white;
+    --dark-color: black;
+    --grayscale: #f2f2f2;
+    /* tamanhos padroes */
+    --extra-small-size: 4px;
+    --small-size: 8px;
+    --medium-size: 16px;
+    --large-size: 32px;
+    --extra-large-size: 64px;
+
+}
+
+.header {
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, var(--primary-color) 24%, var(--secondary-color) 100%);
+}
+.header__title{
+    color: var(--light-color);
+}
+.header__social-icons{
+    color:var(--tertiary-colory);
+}
+.skills{
+
+}
+
+.skills__left-column{
+background-color: var(--quaternary-color);
+}
+
+.skills__title{
+font-size: 0.9rem;
+font-weight: bold;
+color: var(--tertiary-color);
+}
+
+.skills__description{
+font-size: 0.8rem;
+color: var(--dark-color);
+transition: all 1s;
+margin: 0;
+padding: 0;
+}
+.skills__description:hover{
+transition:all 1s;
+margin-left: var(--small-size);
+cursor: pointer;
+background: var(--quinary-color);
+width: 40%;
+border-radius: var(--extra-small-size);
+}
+/* cursor coloca a maozinha
+transition all é a transição pro lado
+*/
+.skills__divider{
+    width: 100%;
+    height: 1px;
+    background: var(--dark-color);
+    opacity: 0.3;
+    margin-top: var(--medium-size);
+}
